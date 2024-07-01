@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Silkscreen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+@import url("bulma/css/bulma.min.css");
 
-@use "bulma/sass" with (
-  $family-primary: '"Nunito", sans-serif',
-  $primary: #2c6c5c,
-  $secondary: #142b2c
-);
+:root {
+  --bulma-primary: #2c6c5c;
+  --bulma-family-primary: "Nunito Sans", sans-serif;
+}
 
 a {
   -o-transition: 0.5s;

@@ -4,11 +4,14 @@ import { defineConfig } from "vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  // server: {
-  //   proxy: {
-  //     "/api": "http://localhost:8080",
-  //   },
-  // },
+  server: {
+    port: 3000,
+    strictPort: true,
+  },
+  preview: {
+    port: 3000,
+    strictPort: true,
+  },
   css: {
     preprocessorOptions: {
       scss: {
