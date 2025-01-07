@@ -1,4 +1,5 @@
-import { RouteRecordRaw, createMemoryHistory, createRouter } from "vue-router";
+import type { RouteRecordRaw } from "vue-router";
+import { createMemoryHistory, createRouter } from "vue-router";
 import Home from "../pages/home.page.vue";
 
 const routes: RouteRecordRaw[] = [
