@@ -12,6 +12,7 @@
     "@vue/tsconfig": "^0.7.0",
     "@vueuse/core": "^12.3.0",
     "bulma": "^1.0.3",
+    "pinia": "^2.3.0",
     "prettier": "^3.4.2",
     "sass": "^1.83.1",
     "typescript": "^5.7.2",

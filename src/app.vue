@@ -3,7 +3,7 @@ import NavbarComponent from "./components/navbar.component.vue";
 </script>
 
 <template>
-  <div>
+  <div data-theme="dark">
     <NavbarComponent />
     <router-view v-slot="{ Component }">
       <transition name="fade" mode="out-in">
