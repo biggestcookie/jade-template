@@ -4,6 +4,7 @@ import { defineConfig } from "vite";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  base: "",
   server: {
     port: 3000,
     strictPort: true,
